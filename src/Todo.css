@@ -1,0 +1,87 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #232fe434;
+    padding: 1rem;
+    width: 90%;
+    max-width: 750px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading h1 {
+    margin-right: 0.5rem;
+    font-family: "Playwrite GB S", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.heading .headingIcon svg {
+    position: relative;
+    top: 2px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+.inputAndButton {
+    display: flex;
+    align-items: center;
+}
+
+.addTask {
+    margin-left: 0.2rem;
+    background-color: #FF5845;
+    border: none;
+    height: 50px;
+    width: 20%;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 750;
+    color: white;
+}
+
+.inputAndButton .MuiFormControl-root {
+    width: 80%;
+}
+
+.inputAndButton .MuiInputBase-root {
+    border-radius: 40px;
+
+}
+
+
+.todoHeading h1 {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.TodoShowSub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskAndCheckbox p {
+    display: inline;
+}
+
+.deleteTask {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deleteTask span {
+    cursor: pointer;
+}
